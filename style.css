@@ -1,0 +1,292 @@
+
+
+body h1,h2,h3,p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    width: 1440px;
+    height: 860px;
+    background-image: url(https://kamura-jp.github.io/portfolio3/top-img.jpeg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+
+
+
+.nav ul {
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.nav ul li {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 30px 15px;
+    display: inline-block;
+    text-shadow: 1px 2px 3px #121212;
+    
+}
+
+.nav ul a {
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.nav ul a:hover {
+    color: red;
+}
+
+.nav_coffee  {
+    text-align: center;
+    line-height: 700px;
+}
+
+.nav_coffee h1 {
+    font-size: 100px;
+    font-weight:bolder;
+    color: white;
+}
+
+.title {
+   width: 1440px;
+   height: 300px;
+   text-align: center;
+   line-height: 300px; 
+   background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.inner_contants {
+    width: 970px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    display: flex;
+}
+
+.manu_wrapper {
+    margin-top: 30px;
+}
+
+.menu {
+    background-image: url(https://kamura-jp.github.io/portfolio3/menu-img.jpeg);
+}
+
+.title h2 {
+    font-size: 70px;
+    font-weight:bold;
+    color: white;
+}
+
+.about {
+    background-image: url(https://kamura-jp.github.io/portfolio3/about.jpeg);
+}
+
+.location {
+    background-image: url(https://kamura-jp.github.io/portfolio3/location.jpeg);
+}
+
+.title_menu {
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    
+}
+
+.title_menu h3 {
+    font-size: 35px;
+    border-bottom: solid;
+    border-color: red;
+    border-width: 5px;
+    display: inline-block;
+    height: 40px;
+    line-height: 30px;
+}
+
+.menu_left {
+    border-right: thin solid black;
+    padding: 0 40px 40px 40px;
+    margin-top: 50px;
+}
+
+.menu_right {
+    padding: 0 40px 40px 40px;
+    margin-top: 50px;
+}
+
+.coffee_text {
+    padding-top: 20px;
+}
+
+.coffee_text dt {
+    width: 340px;
+    border-bottom: dotted thin black;
+    height: 17px;
+    padding: 15px 15px 10px 0;
+    font-size: 12px;
+
+}
+
+.coffee_text dd {
+    text-align: right;
+    height: 16px;
+    margin-top: -10px;
+    
+ 
+    font-size: 12px;
+    
+}
+
+.food_text {
+    padding-top: 22px;
+}
+
+.food_text dt {
+    width: 340px;
+    border-bottom: dotted thin black;
+    height: 17px;
+    line-height: 16px;
+    padding: 15px 15px 5px 0;
+    font-size: 12px;
+    text-align: left;
+}
+
+.food_text dd {
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 16px;
+    margin-top: -10px;
+}
+
+.other {
+    margin-top: 50px;
+}
+
+.other_text_wrapper {
+    padding-top: 15px;
+}
+
+.other_text {
+    padding-top: 25px;
+}
+
+.other_text dt {
+    width: 340px;
+    border-bottom: dotted thin black;
+    height: 17px;
+    line-height: 16px;
+    padding: 15px 15px 5px 0;
+    margin-right: 50px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.other_text dd {
+    text-align: right;
+    height: 16px;
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.coffee_text_contents {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+
+  
+}
+
+.coffee_text {
+    width: 445px;
+    height: 140px;
+    padding: 20px;
+
+}
+
+.coffee_text p {
+    font-size: 15px;
+    height: 80px;
+    line-height: 25px;
+}
+
+.link {
+    text-align: center;
+}
+
+.btn_more {
+    font-size: 14px;
+    color: black;
+    position: relative;
+    padding: 18px 40px;
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    
+}
+
+.btn_more::before,
+.btn_more::after{
+    content: '';
+    position: absolute;
+    border: solid red;
+    width: 20%;
+    height: 50%;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn_more::before {
+    top: 0;
+    left: 0;
+    border-width: 2px 0 0 2px;
+}
+
+.btn_more::after {
+    bottom: 0;
+    right: 0;
+    border-width: 0 2px 2px 0;
+}
+
+.btn_more:hover::before,
+.btn_more:hover::after{
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    border-color: red;
+}
+
+.our_store_map {
+    margin-top: 20px;
+}
+
+.our_store_map iframe {
+    width: 970px;
+    height: 400px;
+}
+
+.our_store_text {
+    margin-top: 5px;
+}
+
+.our_store_text p {
+    padding-top: 15px;
+    height: 47px;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer p {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
